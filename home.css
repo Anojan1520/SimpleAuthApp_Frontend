@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h3{
+    font-size: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #45aaf2;
+}
+.nav-con{
+    width: 400px;
+    align-items: center;
+
+}
+.nav-con ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    list-style: none;
+
+}
+
+.nav-con li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#f5f5f5 ;
+}
+.nav-con li a:hover{
+    color:#130f40 ;
+}
+
+.ProfleContent{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Profile{
+    padding: 10px;
+    border: solid 1px gray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ProfleContent h2{
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0652DD;
+}
+.image-con img{
+    height: 300px;
+}
+.groupdetails{
+    display: flex;
+}
+.groupdetails h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2px;
+    color: #535c68;
+
+}
+.groupdetails h5{
+    font-size: 1.3rem;
+    padding: 5px;
+    font-weight: 550;
+}
